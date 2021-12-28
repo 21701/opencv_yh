@@ -13,5 +13,4 @@ imageClose = cv2.morphologyEx(image, cv2.MORPH_CLOSE, element, iterations=3)
 cv2.imshow('close', imageClose)
 
 cv2.waitKey(0)
-
 cv2.destroyAllWindows()
